@@ -1,0 +1,118 @@
+\documentclass[12pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green}                              % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+%\renewcommand\sfdefault{iwona}
+
+% character encoding
+%\usepackage{CJKutf8}
+%\usepackage{lmodern}
+%\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+%\usepackage{textcomp}
+%\usepackage{fontspec}
+%\setmainfont{Monaco}
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Haosong}{Huang}
+\title{Resume}
+\address{SCAU Information Collgege 631}{Guangzhou, Guangdong}{510000}
+\phone[mobile]{(+86)15915791366}
+\email{haosdent@gmail.com}
+\homepage{blog.haosdent.me}
+\extrainfo{Github: haosdent}
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Apply for Hadoop}                                % optional, remove / comment the line if not wanted
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Summary}
+\cvlistitem{Rich projects experience and work experience.}
+\cvlistitem{All-round technology skills and strong learning skills.}
+
+\section{Internship Experience}
+\cventry{2013.07--2013.09}{Hadoop \& HBase Development}{Alibaba}{Data Platform}{}{
+\begin{itemize}
+\item Hadoop Cross Room Flow Monitor Tool.
+\item HDFS domain socket research and performance tests.
+\item Add hsync to HLog in HBase.
+\end{itemize}}
+\cventry{2012.06--2012.12}{Hadoop \& Mahout Development}{EMC}{BigData Lab}{}{
+\begin{itemize}
+\item DataMining as a Service.
+\end{itemize}}
+\cventry{2011.07--2011.09}{C Development}{UC}{Cloud Platform}{}{
+\begin{itemize}
+\item A distributed journal collect tool for UAE.
+\end{itemize}}
+
+\section{Honors}
+\cvitem{2011.01}{Asia Games Outstanding Volunteer}
+\cvitem{2012.04}{China Undergraduate Electronic Commerce Contest Second Price}
+\cvitem{2012.09}{Software Developers Conference China Best Design, Best Technology, Best Creative}
+\cvitem{2012.10}{Adobe Test the Web Forward Second-Best}
+
+\section{Campus Experience}
+\cvitem{2010.09--2011.06}{SCAU Volunteer}
+\cvitem{2010.11--2010.12}{Asian Games Volunteer}
+\cvitem{2011.09--2011.10}{SCAU Network Center Wushan Zone Supervisor}
+\cvitem{2011.09--2013.06}{HCI Lab Undergraduate students In Charge}
+
+\section{Skills}
+\cvlistitem{Use Pascal, Java, C\#, C, Ruby, Python, JavaScript(Node.js), Clojure.}
+\cvlistitem{Skilled at Nutz, Play!, Rails, Express and Other Web Back-end Develop Framework.}
+\cvlistitem{Skilled at Linux, Solaris and Other Unix Like Operate System Configure and Management, Good at SHELL.}
+\cvlistitem{Skilled at Server Virtualization, know a little about Linux Kernel.}
+\cvlistitem{Skilled at Android Development.}
+\cvlistitem{Use Hadoop, Mahout and retale tools to Analyze BigData, have moderate knowledge on JVM optimization.}
+
+\section{Some Projects}
+\subsection{}
+\cvitem{Name}{\textbf{yaanxunren}}
+\cvitem{Description}{The wechat robot which search lost people informations in yaan earthquake from baidu, etao, google, sogou, 360, sohu, weibo, tencent.}
+\subsection{}
+\cvitem{Name}{\textbf{Intelligent Ads Filter System Based on Mahout}}
+\cvitem{Note}{National scientific and technological innovation project}
+\cvitem{Description}{Learning new keywords from large amounts of crawled data through combine and improve some ML algorithms.}
+\subsection{}
+\cvitem{Name}{\textbf{SCAU ExamSystem Android Client}}
+\cvitem{Description}{The Android Client of SCAU Exam System.}
+\subsection{}
+\cvitem{Name}{\textbf{Guangzhou Software Park Divisions Management System}}
+\cvitem{Description}{Manage every division of Guangzhou Software Park and all companies informations in them.}
+\subsection{}
+\cvitem{Name}{\textbf{HCI Lab Projects Manage System}}
+\cvitem{Description}{Project Publish, Bug Tracker, Repository Manage and HCI Members Information Management.}
+\subsection{}
+\cvitem{Name}{\textbf{Guangdong Labs Environmetal protection and Security Knowledge Online Contest Website}}
+\cvitem{Description}{A high concurrency and strong real online exam system.}
+\subsection{}
+\cvitem{Name}{\textbf{Yoga Slide Presentation Helper}}
+\cvitem{Note}{Provincial scientific and technological innovation project}
+\cvitem{Description}{More Natural Input through Kinect and Android Devices. Mutil person control slide at the same time and remote control through web if need.}
+\subsection{}
+\cvitem{Name}{\textbf{SCI/EI papers crawler}}
+\cvitem{Description}{Complete more than 4000 req/s, Provide a universal SCI/EI search api to other system in SCAU.}
+\subsection{}
+\cvitem{Name}{\textbf{Bank of Dongguan Online Credit Apply System}}
+\cvitem{Description}{Company Information Manage and Check, Risk assesment, Loan Program, Document Generate and etc.}
+\subsection{}
+\cvitem{Name}{\textbf{AMentohust}}
+\cvitem{Description}{Port MentoHUST to Android.}
+
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
